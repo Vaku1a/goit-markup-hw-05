@@ -485,10 +485,8 @@ button {
 
 .clients-list {
   display: flex;
-  gap: 24px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 124px;
 }
 
 .clients-item {
@@ -730,11 +728,11 @@ button {
 
 
 
-.filters-item:hover {
+/* .filters-item:hover {
   border: 1px solid var(--cloud, #F4F4FD);
   background: var(--white, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+} */
 
 .filters-item:hover .overlay {
   transform: translateY(0);
