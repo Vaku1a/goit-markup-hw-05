@@ -874,8 +874,9 @@ fieldset {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus .form-input-icon {
+.form-input:focus+.form-input-icon {
   fill: var(--btn-main-color);
+
 }
 
 
@@ -931,10 +932,10 @@ fieldset {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked .chbx-lbl-span {
+.form-chbx-input:checked+.chbx-lbl-span {
   background-color: var(--focus-hover);
   border: none;
-  fill: var(--secondary-acnt-bg-color)
+  fill: var(--secondary-acnt-bg-color);
 }
 
 .chbx-link {
