@@ -879,6 +879,8 @@ fieldset {
 }
 
 .modal-form-title {
+  margin-bottom: 16px;
+  text-align: center;
   width: 100%;
 
   font-weight: 500;
@@ -886,18 +888,13 @@ fieldset {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
-
-  margin-bottom: 16px;
 }
 
 /* Forma modal hero*/
 
-
 .field-wrap {
   margin-bottom: 8px;
 }
-
-
 
 .form-lbl {
   display: block;
@@ -940,8 +937,6 @@ fieldset {
 .form-input:focus+.form-input-icon {
   fill: var(--btn-main-color);
 }
-
-
 
 .field-comment-wrap {
   margin-bottom: 16px;
