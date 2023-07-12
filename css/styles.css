@@ -668,7 +668,7 @@ fieldset {
 
 }
 
-.-form-btn-icon {
+.form-btn-icon {
   margin-left: 16px;
   fill: var(--accent-text-color);
 }
