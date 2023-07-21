@@ -537,12 +537,12 @@ fieldset {
 .footer-box {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-logo-box {
   display: block;
   width: 264px;
+  margin-right: 120px;
 }
 
 .page-footer {
@@ -570,6 +570,10 @@ fieldset {
 }
 
 /* Social media block */
+
+.footer-soc-box {
+  margin-right: auto;
+}
 
 .footer-soc-list {
   display: flex;
@@ -1002,6 +1006,7 @@ fieldset {
 
 .form-chbx-input:checked+.form-chbx-lbl .chbx-lbl-span>.form-chbx-icon {
   opacity: 1;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .chbx-link {
