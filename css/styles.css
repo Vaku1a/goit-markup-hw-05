@@ -961,19 +961,21 @@ fieldset {
   border-color: #4D5AE5;
 }
 
-
 .form-chbx-wrap {
   margin-bottom: 24px;
 }
 
-
 .form-chbx-lbl {
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--label-form-color);
 }
 
+/* custom checkbox */
 .chbx-lbl-span {
   display: inline-flex;
   align-items: center;
@@ -991,6 +993,15 @@ fieldset {
   background-color: var(--focus-hover);
   border: none;
   fill: var(--secondary-acnt-bg-color);
+}
+
+.form-chbx-icon {
+  opacity: 0;
+}
+
+
+.form-chbx-input:checked+.form-chbx-lbl .chbx-lbl-span>.form-chbx-icon {
+  opacity: 1;
 }
 
 .chbx-link {
