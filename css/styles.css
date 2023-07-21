@@ -970,7 +970,7 @@ fieldset {
 }
 
 .form-chbx-lbl {
-  display: flex;
+  display: inline-flex;
   gap: 8px;
   align-items: center;
   font-size: 12px;
